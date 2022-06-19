@@ -1,3 +1,5 @@
+export * from './flags';
+
 export const formatReadableNumber = (number: number) => {
   return (
     Math.trunc(number).toLocaleString('fi') +

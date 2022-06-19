@@ -1,4 +1,5 @@
 import { Autocomplete, createFilterOptions, TextField } from '@mui/material';
+import { Flags } from '@utils';
 import React from 'react';
 
 interface Props {
@@ -33,6 +34,11 @@ export const CurrencySelect = ({
       filterOptions={filterOptions}
       renderOption={(props, option) => (
         <li {...props}>
+          <img
+            src={Flags[(option as string).toLowerCase()] || Flags['$$$']}
+            height={16}
+            style={{ borderRadius: 2, marginRight: '8px' }}
+          />
           {option} - {symbols[option as string]}
         </li>
       )}
