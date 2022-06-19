@@ -6,7 +6,8 @@ Built with React & Material UI.
 ## Quick-start
 
 - Clone the project.
-- Create an `.env` file using the provided template. (Note that the implementation used apilayer.com's API, other APIs will need rework).
+- Create an `.env` file using the provided template.
+(Note that the implementation used apilayer.com's API, other APIs will need rework).
 - ```
   npm install && npm start
   ```
