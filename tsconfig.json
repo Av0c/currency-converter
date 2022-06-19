@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "lib": ["dom", "dom.iterable", "es2019.array"],
+    "jsx": "preserve",
+    "noEmit": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@hooks": ["src/hooks"],
+      "@client": ["src/client.ts"],
+      "@utils": ["src/utils"],
+      "@components": ["src/components"]
+    },
+    "baseUrl": "."
+  }
+}
